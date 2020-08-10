@@ -1,0 +1,20 @@
+{
+  "name": "new-one",
+  "version": "1.0.0",
+  "description": "avenger",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd backend && npm install && node server.js",
+    "heroku-postbuild": "cd frontend && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amol-vaditake-au6/superHero.git"
+  },
+  "author": "Amol Vaditake",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amol-vaditake-au6/superHero/issues"
+  },
+  "homepage": "https://github.com/amol-vaditake-au6/superHero#readme"
+}

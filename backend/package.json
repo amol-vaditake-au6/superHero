@@ -4,8 +4,7 @@
   "description": "assemble avengers and shaktiman",
   "main": "server.js",
   "scripts": {
-    "start": "cd backend && npm install && node server.js",
-    "heroku-postbuild": "cd frontend && npm install && npm run build"
+    "start": "node server.js"
   },
   "author": "Amol Vaditake",
   "license": "ISC",
