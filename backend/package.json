@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "assemble avengers and shaktiman",
+  "main": "server.js",
+  "scripts": {
+    "start": "cd backend && npm install && node server.js",
+    "heroku-postbuild": "cd frontend && npm install && npm run build"
+  },
+  "author": "Amol Vaditake",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
